@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from "next/image";
+import propic from "../public/propic1bg.png";
 import web1 from "../public/web1.jpg";
 import web2 from "../public/web2.jpg";
 import web3 from "../public/web3.jpg";
@@ -34,17 +35,20 @@ export default function Home() {
           <p className="text-gray-600">Freelancer providing services for web development and design content needs.<br></br>
           Please see my work below.</p>
         </div>
+        <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+              <Image src={propic} layout="fill" objectFit="cover" />
+              </div>
       </section>
       <section className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-2 leading-8">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for agencies
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-2 leading-8">
               I offer from a wide range of services, including brand design,
               web design and development, and content creation.
             </p>
