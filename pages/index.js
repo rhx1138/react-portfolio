@@ -10,9 +10,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-      <section className='bg-blue-500 h-screen'>
-        <h1>hello</h1>
+      <main className="bg-white px-10">
+      <section className="min-h-screen">
+        <nav className="p-10 mb-12 flex justify-between">
+          <h1 className="text-2xl">Ryan Hendrix</h1>
+          <ul className="flex items-center">
+          <li className="px-5"><a href="#">Home</a></li>
+            <li className="px-5"><a href="#">About</a></li>
+            <li className="px-5"><a href="#">Projects</a></li>
+            <li className="px-5"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
       </section>
       </main>
 
