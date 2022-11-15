@@ -20,7 +20,7 @@ An updated version of my portfolio of projects
   * [Screenshots](#screenshots)
 
 
-# Instillation
+# Installation
 
  
 # Usage
