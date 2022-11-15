@@ -13,8 +13,8 @@ export default function Home() {
       <main className="bg-white px-10">
       <section className="min-h-screen">
         <nav className="p-10 mb-12 flex justify-between">
-          <h1 className="text-2xl">Ryan Hendrix</h1>
-          <ul className="flex items-center">
+          <h1 className="text-5xl bg-cyan-300">Ryan Hendrix</h1>
+          <ul className="flex items-center text-xl">
           <li className="px-5"><a href="#">Home</a></li>
             <li className="px-5"><a href="#">About</a></li>
             <li className="px-5"><a href="#">Projects</a></li>
